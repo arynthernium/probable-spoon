@@ -1,4 +1,12 @@
 body {
 	background-color: #111;
 	color: #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+svg {
+	max-height: 80%;
+	fill: #ddd;
 }
