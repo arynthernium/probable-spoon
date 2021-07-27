@@ -6,8 +6,13 @@
 </head>
 
 <body>
-	<button onclick="run();">Spoon?</button>
-	<p>Clicking that button might get you a spoon. Or it might not.</p>
+	<div>
+		<button onclick="run();">Spoon?</button>
+		<p class="inputpercent">Percent: </p>
+		<input class="inputpercent" id="percent" type="number" max="100" min="0" step="1" value="50">
+		<p>Clicking this button might get you a spoon.</p>
+		<p>Or it might not. It's a fifty-fifty.</p>
+	</div>
 	<svg id="thespoon" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.000000 1280.000000"
 		preserveAspectRatio="xMidYMid meet">
 		<g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" stroke="none">
